@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_members_addresses",
+  "info": {
+    "displayName": "Address"
+  },
+  "options": {},
+  "attributes": {
+    "IDNumber": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "SubCity": {
+      "type": "string"
+    },
+    "Address1": {
+      "type": "string"
+    },
+    "Address2": {
+      "type": "string"
+    }
+  }
+}
