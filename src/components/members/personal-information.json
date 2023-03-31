@@ -25,6 +25,17 @@
         "Single",
         "Married"
       ]
+    },
+    "IDType": {
+      "type": "enumeration",
+      "enum": [
+        "Driving License",
+        "Kebele ID",
+        "Other"
+      ]
+    },
+    "IDNumber": {
+      "type": "string"
     }
   }
 }

@@ -1,13 +1,11 @@
 {
   "collectionName": "components_members_addresses",
   "info": {
-    "displayName": "Address"
+    "displayName": "Address",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "IDNumber": {
-      "type": "string"
-    },
     "City": {
       "type": "string"
     },
