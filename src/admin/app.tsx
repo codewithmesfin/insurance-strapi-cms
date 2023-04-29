@@ -3,7 +3,7 @@ export default {
     locales: ["en"],
     translations: {
       en: {
-        'app.components.LeftMenu.navbrand.title': 'Custom name',
+        'app.components.LeftMenu.navbrand.title': 'Etyop Insurance',
       }
     },
   },
