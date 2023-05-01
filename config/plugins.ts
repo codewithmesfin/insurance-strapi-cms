@@ -1,5 +1,5 @@
-//gmailapi CLINET_ID:105390029512-8jo979d2mtcl55hdi63hmepsaj250q99.apps.googleusercontent.com
-export default {
+
+export default ({ env }) =>( {
     //
     graphql: {
       config: {
@@ -18,7 +18,7 @@ export default {
       config: {
         provider: 'sendgrid',
         providerOptions: {
-          apiKey: "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",
+          apiKey: env('SENDGRID'),
         },
         settings: {
           defaultFrom: 'dev@techethio.com',
@@ -28,4 +28,4 @@ export default {
       },
     },
 
-  };
+  });
