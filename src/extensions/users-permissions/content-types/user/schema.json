@@ -115,6 +115,21 @@
     },
     "marital_status": {
       "type": "string"
+    },
+    "id_type": {
+      "type": "string"
+    },
+    "kebele": {
+      "type": "string"
+    },
+    "woreda": {
+      "type": "string"
+    },
+    "zone": {
+      "type": "string"
+    },
+    "city": {
+      "type": "string"
     }
   }
 }
