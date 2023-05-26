@@ -66,16 +66,55 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "user_profile": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::user-profile.user-profile"
+    "first_name": {
+      "type": "string"
     },
-    "user_profiles": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::user-profile.user-profile",
-      "mappedBy": "user"
+    "last_name": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "secondary_phone": {
+      "type": "string"
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "id_number": {
+      "type": "string"
+    },
+    "id_card": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female"
+      ]
+    },
+    "marital_status": {
+      "type": "string"
     }
   }
 }
