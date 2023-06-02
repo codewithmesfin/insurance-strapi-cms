@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insurance_propsal_purchase_initiators",
+  "info": {
+    "displayName": "purchaseInitiator",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}

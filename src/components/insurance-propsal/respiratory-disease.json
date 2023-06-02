@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insurance_propsal_respiratory_diseases",
+  "info": {
+    "displayName": "sufferDetails",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "suffer": {
+      "type": "string"
+    }
+  }
+}

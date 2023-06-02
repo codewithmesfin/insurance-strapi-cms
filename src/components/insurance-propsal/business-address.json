@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_insurance_propsal_business_addresses",
+  "info": {
+    "displayName": "businessAddress",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "BusinessName": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "POB": {
+      "type": "string"
+    }
+  }
+}

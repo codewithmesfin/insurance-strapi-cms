@@ -1,21 +1,21 @@
 {
-  "collectionName": "components_members_addresses",
+  "collectionName": "components_insurance_propsal_coverages",
   "info": {
-    "displayName": "Address",
+    "displayName": "coverage",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "City": {
+    "planAndDuration": {
       "type": "string"
     },
-    "SubCity": {
+    "sumAssured": {
       "type": "string"
     },
-    "Address1": {
+    "additionalBenefit": {
       "type": "string"
     },
-    "Address2": {
+    "premiumPaymentModel": {
       "type": "string"
     }
   }

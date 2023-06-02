@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insurance_propsal_ever_suffereds",
+  "info": {
+    "displayName": "suffers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "suffer": {
+      "type": "string"
+    }
+  }
+}

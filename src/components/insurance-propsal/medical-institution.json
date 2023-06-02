@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_insurance_propsal_medical_institutions",
+  "info": {
+    "displayName": "medicalInstitution",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "institution": {
+      "type": "string"
+    },
+    "doctorName": {
+      "type": "string"
+    },
+    "doctorAddress": {
+      "type": "string"
+    },
+    "reasonOfConsultation": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_insurance_propsal_proser_particals",
+  "info": {
+    "displayName": "proposerParticular",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ownerName": {
+      "type": "string"
+    },
+    "fatherName": {
+      "type": "string"
+    },
+    "grandFatherName": {
+      "type": "string"
+    },
+    "birthdate": {
+      "type": "date"
+    },
+    "sex": {
+      "type": "string"
+    },
+    "height": {
+      "type": "float"
+    },
+    "weight": {
+      "type": "float"
+    },
+    "birthPlace": {
+      "type": "string"
+    },
+    "maritalStatus": {
+      "type": "string"
+    },
+    "residentialAddress": {
+      "type": "component",
+      "repeatable": false,
+      "component": "insurance-propsal.residential-address"
+    },
+    "businessAddress": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.business-address"
+    }
+  }
+}

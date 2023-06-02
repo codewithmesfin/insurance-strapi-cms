@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_insurance_propsal_near_relative_issues",
+  "info": {
+    "displayName": "nearRelativeIssue",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nearRelativeIssue": {
+      "type": "string"
+    },
+    "reason": {
+      "type": "text"
+    }
+  }
+}

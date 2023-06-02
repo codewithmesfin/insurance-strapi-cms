@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_insurance_propsal_body_deformities",
+  "info": {
+    "displayName": "bodyDeformity",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "hasBodyDeformity": {
+      "type": "boolean"
+    },
+    "medicalInstitution": {
+      "displayName": "medicalInstitution",
+      "type": "component",
+      "repeatable": false,
+      "component": "insurance-propsal.medical-institution"
+    }
+  }
+}

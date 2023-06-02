@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insurance_propsal_extra_suffers",
+  "info": {
+    "displayName": "extraSuffers",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "suffer": {
+      "type": "string"
+    }
+  }
+}

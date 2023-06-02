@@ -1,0 +1,84 @@
+{
+  "kind": "collectionType",
+  "collectionName": "life_insurances",
+  "info": {
+    "singularName": "life-insurance",
+    "pluralName": "life-insurances",
+    "displayName": "lifeInsurance",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "proposerParticular": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.proser-partical"
+    },
+    "cover": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.coverage"
+    },
+    "assuranceProposal": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.particulars-of-proposer"
+    },
+    "independentIncomeSource": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.income-source"
+    },
+    "bodyDeformity": {
+      "type": "component",
+      "repeatable": false,
+      "component": "insurance-propsal.medical-institution"
+    },
+    "IntentionOrExpectaion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.intention-or-expectaion"
+    },
+    "nearRelativeIssue": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.near-relative-issue"
+    },
+    "dailyAlcoholConsumption": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.daily-alcohol-consumption"
+    },
+    "suffers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.ever-suffered"
+    },
+    "sufferDetails": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.respiratory-disease"
+    },
+    "extraSuffers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.extra-suffers"
+    },
+    "forOnlyIssue": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.female-only"
+    },
+    "otherHealthCircumstance": {
+      "type": "string"
+    },
+    "purchaseInitiator": {
+      "type": "component",
+      "repeatable": true,
+      "component": "insurance-propsal.purchase-initiator"
+    }
+  }
+}

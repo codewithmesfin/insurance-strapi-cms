@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_insurance_propsal_income_sources",
+  "info": {
+    "displayName": "IncomeSource",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "haveIndIncomeSource": {
+      "type": "boolean"
+    },
+    "annualIncome": {
+      "type": "float"
+    },
+    "incomeSource": {
+      "type": "string"
+    }
+  }
+}

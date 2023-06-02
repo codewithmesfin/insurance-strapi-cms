@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_insurance_propsal_female_onlies",
+  "info": {
+    "displayName": "femaleOnly",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "suffer": {
+      "type": "string"
+    }
+  }
+}

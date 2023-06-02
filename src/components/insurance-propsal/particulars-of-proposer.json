@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_insurance_propsal_particulars_of_proposers",
+  "info": {
+    "displayName": "AssuranceProposal",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "propsalForAssurance": {
+      "type": "boolean"
+    },
+    "NameOfInsurer": {
+      "type": "string"
+    },
+    "DateOfProposal": {
+      "type": "string"
+    },
+    "acceptedTerms": {
+      "type": "string"
+    }
+  }
+}

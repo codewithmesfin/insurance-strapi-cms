@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insurance_propsal_residential_addresses",
+  "info": {
+    "displayName": "residentialAddress",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Woreda": {
+      "type": "string"
+    },
+    "Kebele": {
+      "type": "string"
+    },
+    "HouseNumber": {
+      "type": "string"
+    },
+    "Telephone": {
+      "type": "string"
+    },
+    "POB": {
+      "type": "string"
+    }
+  }
+}

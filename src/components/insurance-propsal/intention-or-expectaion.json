@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_insurance_propsal_intention_or_expectaions",
+  "info": {
+    "displayName": "IntentionOrExpectaion"
+  },
+  "options": {},
+  "attributes": {
+    "IntentionOrExpectaion": {
+      "type": "string"
+    }
+  }
+}

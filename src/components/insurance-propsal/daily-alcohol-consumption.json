@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_insurance_propsal_daily_alcohol_consumptions",
+  "info": {
+    "displayName": "dailyAlcoholConsumption",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "alcohol": {
+      "type": "string"
+    },
+    "cigarrets": {
+      "type": "string"
+    },
+    "habitOfTakingDrug": {
+      "type": "string"
+    },
+    "livedOrContactedWith": {
+      "type": "string"
+    },
+    "detailOfSuccessfulVacancies": {
+      "type": "string"
+    }
+  }
+}
